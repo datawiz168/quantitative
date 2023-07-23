@@ -4,7 +4,7 @@ import pandas as pd
 n = 100
 
 # 读取csv文件的前n行
-df = pd.read_csv('combined_sorted-精选.csv', nrows=n)
+df = pd.read_csv('多头数字占比配套.csv', nrows=n)
 
 # 计算多头这一列各个数字的占比
 counts = df['多头'].value_counts(normalize=True) * 100
